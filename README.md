@@ -1,4 +1,4 @@
-# Hospital App
+# Fluter + Bloc App
 
 Flutter ใช้ **BLoC** เป็น state management และ **Material Design 3 (MUI)** สำหรับ UI โครงสร้างโปรเจกต์เป็น **Hybrid Architecture** (Feature-first + Layer-first)
 
