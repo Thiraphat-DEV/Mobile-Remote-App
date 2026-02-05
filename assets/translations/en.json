@@ -1,0 +1,11 @@
+{
+  "appTitle": "Hospital App",
+  "homeTitle": "Hospital App",
+  "welcomeSubtitle": "Material UI + BLoC + Hybrid Architecture",
+  "errorOccurred": "An error occurred",
+  "welcomeGreeting": "Welcome to Hospital App",
+  "language": "Language",
+  "english": "English",
+  "thai": "ไทย",
+  "system": "System"
+}

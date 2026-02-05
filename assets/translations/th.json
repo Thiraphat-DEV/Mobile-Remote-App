@@ -1,0 +1,11 @@
+{
+  "appTitle": "แอปโรงพยาบาล",
+  "homeTitle": "แอปโรงพยาบาล",
+  "welcomeSubtitle": "Material UI + BLoC + Hybrid Architecture",
+  "errorOccurred": "เกิดข้อผิดพลาด",
+  "welcomeGreeting": "ยินดีต้อนรับสู่แอปโรงพยาบาล",
+  "language": "ภาษา",
+  "english": "English",
+  "thai": "ไทย",
+  "system": "ตามระบบ"
+}

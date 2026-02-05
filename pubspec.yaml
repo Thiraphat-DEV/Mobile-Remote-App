@@ -1,0 +1,33 @@
+name: hospital_app
+description: Hospital App - Flutter with BLoC and Material UI (Hybrid Architecture)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # BLoC State Management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.2
+  # Equatable for value equality in BLoC states
+  equatable: ^2.0.5
+  # Dependency Injection
+  get_it: ^7.6.4
+  # Localization
+  easy_localization: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
