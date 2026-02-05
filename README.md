@@ -63,6 +63,22 @@ lib/
    flutter run
    ```
 
+## GitHub Actions (CI & Deploy)
+
+- **CI** (`.github/workflows/ci.yml`): รันทุกครั้งที่ push/PR ไป `main` หรือ `master`  
+  - `flutter pub get` → `flutter analyze` → `flutter test` → build web + APK
+
+- **Deploy** (`.github/workflows/deploy.yml`): รันเมื่อ push ไป `main`/`master` (หรือกด Run manual)  
+  - Build Flutter web ด้วย `--base-href` สำหรับ GitHub Pages  
+  - Deploy ไปที่ **GitHub Pages** (แอปเว็บจะอยู่ที่ `https://<username>.github.io/<repo>/`)
+
+### เปิดใช้ GitHub Pages
+
+1. Push โค้ดขึ้น GitHub
+2. ไปที่ Repo → **Settings** → **Pages**
+3. ใต้ **Build and deployment** เลือก **Source**: **GitHub Actions**
+4. หลัง push ไป `main`/`master` workflow **Deploy to GitHub Pages** จะรันและอัปเดตเว็บอัตโนมัติ
+
 ## เพิ่ม feature ใหม่
 
 1. สร้างโฟลเดอร์ใต้ `lib/features/<feature_name>/`
